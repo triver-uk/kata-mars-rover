@@ -1,13 +1,13 @@
 ## Requirements
 
-- The plateau is a 10x10 grid
+- The plateau can be represented as a 10x10 grid
+  - If a rover reaches the end of the grid, it wraps around (planets are spheres)
 - A rover has state consisting of two parts:
   - its position on the grid (represented by an `(X, Y)` coordinate pair)
   - the compass direction it's facing (represented by a letter, one of `N` - North, `S` - South, `E` - East, `W` - West)
 - The program input is a string of one-character move commands:
   - `L` and `R` rotate the direction the rover is facing (left and right respectively)
   - `M` moves the rover one grid square forward in the direction it is currently facing
-- If a rover reaches the end of the plateau, it wraps around the end of the grid
 
 The program's output is the final position of the rover after all the move commands have been executed. The position is represented as a coordinate pair and a direction, joined by colons to form a string.
 
