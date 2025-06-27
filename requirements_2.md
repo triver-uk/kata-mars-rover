@@ -1,6 +1,7 @@
 ## Requirements
 
-The grid may have obstacles. Given a sequence of commands, if the rover encounters an obstacle, it stops and reports the obstacle by prefixing `O:` to its last position reached before encountering the obstacle. For instance, `O:1:1:N` would mean that the rover encountered an obstacle at position `(1, 2)`.
+The plateau may have obstacles, but luckily our rovers have an obstacle detection feature.
+Before each move to a new square, the rover detects if an obstacle is present. If it is, it stops and reports the obstacle by prefixing `O:` to its last position before encountering the obstacle. For instance, `O:1:1:N` would mean that the rover encountered an obstacle at position `(1, 2)`.
 
 
 ## Examples

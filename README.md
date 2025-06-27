@@ -1,8 +1,7 @@
 # kata-mars-rover
 
-A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
+You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet.
 
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their onboard cameras can get a complete view of the surrounding terrain to send back to Earth.
 
-Your task is to develop an API that moves the rovers around on the plateau.
-
+Your task is to develop an API that translates the commands sent from Earth to instructions that are understood by the rover.
